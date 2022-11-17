@@ -2,13 +2,14 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     resultView: {
-        backgroundColor: "#363636",
+        flex: 1,
+        width: "100%",
         alignItems: 'center',
     },
     resultImc: {
         flex: 1,
-        marginTop: 15,
-        paddingTop: 60,
+        margin: 8,
+        padding: 4,
         alignItems: 'center',
         width: "100%",
         fontSize: 48,
@@ -28,7 +29,6 @@ const styles = StyleSheet.create({
     boxShareButton: {
         width: "100%",
         alignItems: 'center',
-        marginBottom: 10,
     },
     sharedButton: {
         backgroundColor: "#b8860b",
