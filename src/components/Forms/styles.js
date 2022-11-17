@@ -31,19 +31,18 @@ const styles = StyleSheet.create({
         paddingLeft: 10,
     },
     buttonCalculator: {
-        borderRadius: 8,
-        alignItems: 'center',
-        justifyContent: 'center',
         width: "90%",
+        height: 44,
         backgroundColor: "#b8860b",
-        paddingTop: 14,
-        paddingBottom: 14,
-        marginLeft: 12,
-        margin: '30',
+        margin: 12,
+        paddingLeft: 10,
+        borderRadius: 16,
+        alignItems: 'center',
+        justifyContent: "center",
     },
     textButtonCalculator: {
-        fontSize: 20,
-        color: "#fff",
+       fontSize: 32,
+       color: "#fff",
     },
 });
 export default styles;
