@@ -44,5 +44,11 @@ const styles = StyleSheet.create({
        fontSize: 32,
        color: "#fff",
     },
+    erroMessage: {
+        fontSize: 16,
+        color: "red",
+        fontWeight: "bold",
+        paddingLeft: 20,
+    },
 });
 export default styles;

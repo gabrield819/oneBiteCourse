@@ -1,6 +1,10 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+    resultView: {
+        backgroundColor: "#363636",
+        alignItems: 'center',
+    },
     resultImc: {
         flex: 1,
         marginTop: 15,
@@ -20,6 +24,24 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: "#b8860b",
         fontWeight: "bold",
+    },
+    boxShareButton: {
+        width: "100%",
+        alignItems: 'center',
+        marginBottom: 10,
+    },
+    sharedButton: {
+        backgroundColor: "#b8860b",
+        borderRadius: 12,
+        paddingBottom: 5,
+        paddingTop: 5,
+
+    },
+    sharedButtonText: {
+        color: "#fff",
+        fontSize: 16,
+        fontWeight: "bold",
+        paddingHorizontal: 30,
     },
 });
 
