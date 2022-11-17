@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text } from "react-native";
-import Main from "../Main";
+import styles from "./style";
 
 function Titulo() {
     return(
-        <View>
-            <Text>Titulo do aplicativo</Text>
-            <Main/>
+        <View style={styles.boxTitle}>
+            <Text style={styles.textTitle}>OneBiteHealt</Text>
+            {/* <Main/> */}
         </View>
     );
 }

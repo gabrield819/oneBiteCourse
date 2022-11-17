@@ -2,22 +2,25 @@ import React from 'react';
 import { StyleSheet, StatusBar, Text, View } from 'react-native';
 
 import Titulo from './src/components/Titulo';
-import Main from './src/components/Main';
+import Form from './src/components/Forms/Index';
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Titulo/>
-    </View>
+    <>
+    <StatusBar barStyle={'default'}/>
+      <View style={styles.container}>
+        <Titulo/>
+        <Form/>
+      </View>
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#000',
+    padding: 8,
   },
 });
