@@ -28,7 +28,7 @@ function verificationImc(){
     }
 }
 function validationImc() {
-    console.log(imcList)
+    // console.log(imcList)
     if (weight != null && height != null){
         imcCalculator()
         setHeight(null)
