@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
         borderRadius: 12,
         paddingBottom: 5,
         paddingTop: 5,
-
     },
     sharedButtonText: {
         color: "#fff",

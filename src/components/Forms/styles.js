@@ -51,5 +51,25 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         paddingLeft: 20,
     },
+    resultImcArea: {
+        width: "100%",
+        height: "50%",
+    },
+    imcList: {
+        marginTop: 20,
+    },
+    resultImcItem: {
+        fontSize: 22,
+        color: "white",
+        fontWeight: "bold",
+        height: 50,
+        width: "100%",
+        paddingRight:20,
+    },
+    textResultItemList: {
+        fontSize: 16,
+        color: "white",
+    }
+
 });
 export default styles;
