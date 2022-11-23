@@ -4,7 +4,6 @@ import { StyleSheet, StatusBar, Text, View } from 'react-native';
 import Titulo from './src/components/Titulo';
 import Form from './src/components/Forms/Index';
 
-
 export default function App() {
   return (
     <>

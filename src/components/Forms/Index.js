@@ -56,7 +56,8 @@ function validationImc() {
                     value={height} 
                     placeholder="ex: 1.75" 
                     keyboardType="numeric" 
-                />
+                >
+                </TextInput>
 
                 <Text style={styles.formLabel}>Peso</Text>
                 <Text style={styles.erroMessage}>{erroMessage}</Text>
@@ -66,7 +67,8 @@ function validationImc() {
                     value={weight}
                     placeholder="ex: 75,350" 
                     keyboardType="numeric" 
-                />
+                > 
+                </TextInput>
 
                 <TouchableOpacity
                     style={styles.buttonCalculator}
