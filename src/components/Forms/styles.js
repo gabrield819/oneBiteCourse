@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     },
     resultImcItem: {
         fontSize: 22,
-        color: "white",
+        color: "#c99420",
         fontWeight: "bold",
         height: 50,
         width: "100%",
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     },
     textResultItemList: {
         fontSize: 16,
-        color: "white",
+        color: "#daa520",
     }
 
 });

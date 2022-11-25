@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     numberImc: {
-        fontSize: 32,
+        fontSize: 128,
         color: "#b8860b",
         fontWeight: "bold",
     },
